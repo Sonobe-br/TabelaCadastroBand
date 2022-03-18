@@ -14,13 +14,13 @@
                 height: 100%;
             }
 
-            #dfPessoas {
+            #dfProdutos {
                 font: 14px Verdana, Arial, Helvetica, sans-serif; 
                 margin-left: 35%;
                 margin-top: 150px;
             }
 
-            #dtPessoas {
+            #dtProdutos {
                 font: 14px Verdana, Arial, Helvetica, sans-serif;
                 margin-left: 25%;
             }
@@ -34,8 +34,8 @@
 
     <body>
         <div class="global">
-        <div id="dfPessoas">
-            <form nome="fPessoas">
+        <div id="dfProdutos">
+            <form nome="fProdutos">
                 <label>Série</label><br/>
                 <input type="text" name="txtSerie" /> <br/><br/>
                 <label>Referencia</label><br/>
@@ -45,11 +45,12 @@
                 <label>Valor</label><br/>
                 <input type="text" name="txtValor" /><br/><br/>
                 <input type="button" value="Adiciona Objeto" onclick="cadastroDeObjetos(txtSerie.value, txtReferencia.value, txtProduto.value, txtValor.value)" /> 
+                <!-- <input type="button" value="Remove Objeto" onclick="cadastroDeObjetos(txtSerie.value, txtReferencia.value, txtProduto.value, txtValor.value)" />  -->
             </form>
         </div>
         <br/><br/>
-        <div id="dtPessoas">
-            <table id="tbPessoas">
+        <div id="dtProdutos">
+            <table id="tbProdutos">
                 <thead>
                     <tr>
                         <td>Código</td>

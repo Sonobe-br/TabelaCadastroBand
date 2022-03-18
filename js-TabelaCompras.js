@@ -1,6 +1,6 @@
 function cadastroDeObjetos (serie, referencia, produto, valor) {
 
-    let tabela = document.getElementById('tbPessoas');
+    let tabela = document.getElementById('tbProdutos');
     let quantidadeDeLinhas = tabela.rows.length;
     let linha = tabela.insertRow(quantidadeDeLinhas);
 
@@ -16,6 +16,5 @@ function cadastroDeObjetos (serie, referencia, produto, valor) {
     cellProduto.innerHTML = produto;
     cellValor.innerHTML = valor;
 
-    document.getElementById('tbPessoas').value='';
-    
+   
 }
